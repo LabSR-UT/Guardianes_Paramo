@@ -11,3 +11,4 @@ streamlit-folium==0.23.1
 rioxarray==0.17.0
 cv2==4.9.0
 opencv-python==4.10.0.84
+opencv==4.8.1
