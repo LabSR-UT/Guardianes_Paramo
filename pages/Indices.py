@@ -10,7 +10,6 @@ import folium
 import rasterio
 import numpy as np
 import time
-import cv2
 import geopandas as gpd
 import leafmap.foliumap as leafmap
 import rioxarray
