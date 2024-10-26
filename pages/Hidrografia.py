@@ -51,9 +51,9 @@ with col1:
     
     m = leafmap.Map(center=[4.822, -75.289], zoom=12)
     
-    in_geojson = "C:/github/streamlit-paramo/data/ROI_corregido2.geojson"
+    in_geojson = "./data/ROI_corregido2.geojson"
     m.add_geojson(in_geojson, layer_name="ROI", style_function=lambda x:bordersStyle2)
-    in_geojson = "C:/github/streamlit-paramo/data/Drenajes2.geojson"
+    in_geojson = "./data/Drenajes2.geojson"
     m.add_geojson(in_geojson, layer_name="Drenajes", style_function=lambda x:bordersStyle)
     
     m.to_streamlit(width, height)
@@ -62,7 +62,7 @@ with col2:
     #grayscale = original.convert('LA')
     st.subheader("Estadisticas:")
     
-    gdf = gpd.read_file("C:/github/streamlit-paramo/data/Drenajes2.gpkg")
+    gdf = gpd.read_file("./data/Drenajes2.gpkg")
     
     st.write("Numero de drenajes:", gdf.shape[0])
     st.write("Longitud maxima (Km):", gdf['Longitud (Km)'].max())
