@@ -37,7 +37,7 @@ def imagen(img):
     return array,bounds  
 
 # A dummy Sentinel 2 COG I had laying around
-tif = "C:/github/streamlit-paramo/data/DEM_Paramo.tif"
+tif = "./data/DEM_Paramo.tif"
 # This is probably hugely inefficient, but it works. Opens the COG as a numpy array
 #src = rasterio.open(tif)
 #array = src.read()
@@ -61,10 +61,10 @@ with col1:
     ).add_to(m)
     
     layer = folium.GeoJson(
-    data=(open("C:/github/streamlit-paramo/data/Paramo_contornos200m.geojson", "r").read()), name='Contornos 200m').add_to(m)
+    data=(open("./data/Paramo_contornos200m.geojson", "r").read()), name='Contornos 200m').add_to(m)
     
     layer = folium.GeoJson(
-    data=(open("C:/github/streamlit-paramo/data/ROI_corregido2.geojson", "r").read()), name='Limite').add_to(m)
+    data=(open("./data/ROI_corregido2.geojson", "r").read()), name='Limite').add_to(m)
     
     # Define a Branca colormap for the colorbar
     vmin = 3000 #0.2
