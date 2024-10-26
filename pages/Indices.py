@@ -80,7 +80,6 @@ if option == None:
 #array = src.read()  
 #vmin = array.min() #0.0
 #vmax = array.max() #1.0  
-t1 = time.time()
 array, bounds = imagen(tif)
 vmin = array.min() #0.0
 vmax = array.max() #1.0
@@ -138,9 +137,7 @@ with col1:
     # call to render Folium map in Streamlit
     folium_static(m)
     
-    t3 = t2-t1
-    st.write("Tiempo (segs):", t3)
-    
+  
 with col2:
 
     if option == "NDVI":
