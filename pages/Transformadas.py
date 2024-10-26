@@ -52,10 +52,10 @@ option = st.selectbox(
 )
 if option == "Kauth-Thomas":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "C:/github/streamlit-paramo/data/KT_geo.tif"
+    tif = "./data/KT_geo.tif"
 if option == "Karhunen-Loeve":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "C:/github/streamlit-paramo/data/KL_geo.tif"
+    tif = "./data/KL_geo.tif"
 if option == None:
     # A dummy Sentinel 2 COG I had laying around
     st.write("Debe seleccionar una opcion.")
