@@ -51,5 +51,5 @@ with col1:
     #st_data = st_folium(m, width=725)
     
 with col2:
-    st.image("C:/github/streamlit-paramo/data/paramo_murillo.jpg", caption="Vista del paramo desde Murillo", width=500)# use_column_width="always")
+    st.image("./data/paramo_murillo.jpg", caption="Vista del paramo desde Murillo", width=500)# use_column_width="always")
     st.write("**Creditos Imagen: <https://www.livingcol.com>**")
