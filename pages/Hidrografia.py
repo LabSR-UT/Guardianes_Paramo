@@ -51,7 +51,7 @@ with col1:
     
     m = leafmap.Map(center=[4.822, -75.289], zoom=12)
     
-    in_geojson = "C:/github/streamlit-paramo/data/ROI_corregido.geojson"
+    in_geojson = "C:/github/streamlit-paramo/data/ROI_corregido2.geojson"
     m.add_geojson(in_geojson, layer_name="ROI", style_function=lambda x:bordersStyle2)
     in_geojson = "C:/github/streamlit-paramo/data/Drenajes2.geojson"
     m.add_geojson(in_geojson, layer_name="Drenajes", style_function=lambda x:bordersStyle)
