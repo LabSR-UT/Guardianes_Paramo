@@ -53,7 +53,7 @@ if option == "Color natural":
     tif = "./data/RGB_geo2.tif"
 if option == "Composicion Infrarroja":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "./data/CIR_geo.tif"
+    tif = "./data/CIR_geo2.tif"
 if option == "Agricultura":
     # A dummy Sentinel 2 COG I had laying around
     tif = "./data/AGRI_geo.tif"  
