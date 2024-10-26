@@ -43,7 +43,7 @@ with col1:
     
     m = leafmap.Map(center=[4.822, -75.289], zoom=12)
     
-    in_geojson = "C:/github/streamlit-paramo/data/Subcuencas2.geojson"
+    in_geojson = "./data/Subcuencas2.geojson"
     m.add_geojson(in_geojson, layer_name="Cuencas", fill_colors=["green"])
     m.to_streamlit(width, height)
 
@@ -51,7 +51,7 @@ with col2:
     #grayscale = original.convert('LA')
     st.subheader("Estadisticas:")
     
-    gdf = gpd.read_file("C:/github/streamlit-paramo/data/Subcuencas2.gpkg")
+    gdf = gpd.read_file("./data/Subcuencas2.gpkg")
     
     st.write("Numero de microcuencas:", gdf.shape[0])
     st.write("Area microcuenca mayor (has):", gdf['Area (has)'].max())
