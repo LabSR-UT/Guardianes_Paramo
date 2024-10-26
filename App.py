@@ -27,7 +27,7 @@ with st.sidebar:
     
     st.image("./data/Logo IATECH.png", width=250)
 
-st.image("C:/github/streamlit-paramo/data/paramo_view.jpg", caption="Paramo",  width=1200)
+st.image("./data/paramo_view.jpg", caption="Paramo",  width=1200)
 
 # Customize page title
 st.title("GUARDIANES DEL PARAMO")
