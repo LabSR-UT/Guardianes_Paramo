@@ -38,7 +38,7 @@ bordersStyle={
 col1, col2 = st.columns((2,1))
 
 with col1:
-    in_geojson = "C:/github/streamlit-paramo/data/ROI_corregido2.geojson"
+    in_geojson = "https://github.com/LabSR-UT/Guardianes_Paramo/blob/main/data/ROI_corregido2.geojson"
     
     width = 600
     height = 500
