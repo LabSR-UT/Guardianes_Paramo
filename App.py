@@ -7,7 +7,7 @@ def add_logo():
         """
         <style>
             [data-testid="stSidebarNav"] {
-                background-image:url("file:///C:/github/streamlit-paramo/data/Logo_guardianes.jpg") top left repeat;
+                background-image:url("./data/Logo_guardianes.jpg");
                 background-repeat: no-repeat;
                 padding-top: 150px;
                 background-position: 20px 20px;
