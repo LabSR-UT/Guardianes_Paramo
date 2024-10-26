@@ -62,7 +62,7 @@ if option == "Vegetacion":
     tif = "./data/ANA_geo.tif"  
 if option == "Urbano":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "./data/SUE_geo.tif"  
+    tif = "./data/SUE_geo2.tif"  
 if option == None:
     # A dummy Sentinel 2 COG I had laying around
     st.write("Debe seleccionar una opcion.")
