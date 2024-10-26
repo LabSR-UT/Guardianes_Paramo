@@ -59,7 +59,7 @@ if option == "Agricultura":
     tif = "./data/AGRI_geo2.tif"  
 if option == "Vegetacion":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "./data/ANA_geo.tif"  
+    tif = "./data/ANA_geo2.tif"  
 if option == "Urbano":
     # A dummy Sentinel 2 COG I had laying around
     tif = "./data/SUE_geo2.tif"  
