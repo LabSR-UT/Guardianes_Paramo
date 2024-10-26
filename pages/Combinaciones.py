@@ -50,19 +50,19 @@ option = st.selectbox(
 )
 if option == "Color natural":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "C:/github/streamlit-paramo/data/RGB_geo.tif"
+    tif = "./data/RGB_geo.tif"
 if option == "Composicion Infrarroja":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "C:/github/streamlit-paramo/data/CIR_geo.tif"
+    tif = "./data/CIR_geo.tif"
 if option == "Agricultura":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "C:/github/streamlit-paramo/data/AGRI_geo.tif"  
+    tif = "./data/AGRI_geo.tif"  
 if option == "Vegetacion":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "C:/github/streamlit-paramo/data/ANA_geo.tif"  
+    tif = "./data/ANA_geo.tif"  
 if option == "Urbano":
     # A dummy Sentinel 2 COG I had laying around
-    tif = "C:/github/streamlit-paramo/data/SUE_geo.tif"  
+    tif = "./data/SUE_geo.tif"  
 if option == None:
     # A dummy Sentinel 2 COG I had laying around
     st.write("Debe seleccionar una opcion.")
