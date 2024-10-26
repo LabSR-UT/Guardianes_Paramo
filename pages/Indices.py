@@ -15,8 +15,6 @@ import leafmap.foliumap as leafmap
 import rioxarray
 import branca
 import branca.colormap as cm
-from skimage import exposure
-from skimage import img_as_ubyte
 
 st.set_page_config(layout="wide")   
 
