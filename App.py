@@ -22,7 +22,7 @@ add_logo()
 with st.sidebar:
     "# Info"
     st.write("")
-    st.write("Laboratorio de Sensores Remotos \n <email://labsr@ut.edu.co>\n <https://labsr_ut.github.com>")
+    st.write("Laboratorio de Sensores Remotos \n <email:labsr@ut.edu.co>\n <https://labsr_ut.github.com>")
     st.write("")
     
     st.image("./data/Logo IATECH.png", width=250)
@@ -38,7 +38,7 @@ de geodatos, para apoyar la toma de decisiones a partir de analisis multicriteri
 incorporando procesamiento automatico de imagenes satelitales utilizando metodos
 avanzados (machine learning y deep learning), que permitan reducir los tiempos 
 y mejorar la eficiencia, y de esta forma, impactar positivamente en la proteccion 
-de los paramos en los paises que poseen este ecosistema, como son Colombia (50%), 
+de los paramos en los paises que poseen este ecosistema en America, como son Colombia (59%), 
 Venezuela, Brasil, Perú, Colombia, Chile y Ecuador. 
 """
 st.markdown(markdown)
@@ -78,11 +78,8 @@ markdown = """
 st.markdown(markdown)
 
 st.subheader("Integrantes")
-#st.image("C:/github/streamlit-paramo/data/estudiantes.jpg", caption="Paramo",  width=900)
-
 markdown2 = """
-Se cuenta con la participacion de un selecto grupo de personas incentivadas para aportar a la conservacion de los paramos del mundo).
-
+Se cuenta con la participacion de un selecto grupo de personas incentivadas para aportar a la conservacion de los paramos del mundo.
 - Ashley Rugeles Tellez (Restauracion ecologica)
 - Cristian Cordoba Montenegro (Visualizacion web)
 - Evelyn Pagote Hernandez (Modelacion hidrica)
