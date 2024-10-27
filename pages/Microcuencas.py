@@ -19,11 +19,10 @@ st.set_page_config(layout="wide")
 with st.sidebar:
     "# Info"
     st.write("")
-    st.write("Laboratorio de Sensores Remotos \n <email://labsr@ut.edu.co>\n <https://labsr_ut.github.com>")
+    st.write("Laboratorio de Sensores Remotos \n <email:labsr@ut.edu.co>\n <https://labsr_ut.github.com>")
     st.write("")
     
-logo = "./data/Logo IATECH.png"
-st.sidebar.image(logo)
+    st.image("./data/Logo IATECH.png", width=250)
 
 # Customize page title
 st.title("MICROCUENCAS")
